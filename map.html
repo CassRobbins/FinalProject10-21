@@ -1,0 +1,125 @@
+<!DOCTYPE html>>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Map of Skyrim</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="logo"><a href=index.html><img src="images/logo.png" alt="site logo" width="100px" height="100px"></a>
+    </div>
+        <header>
+            <h1>The Elder Scrolls: Dungeons (& Dragons)</h1>
+        </header>
+<nav>
+    <a href="index.html">Home</a> | <a href="map.html">Map</a> | <a href="monsters.html">Monsters</a>
+</nav>
+<div class="column">
+    <h1 style="text-align:center;">Map</h1>
+    <div id="locations">
+    <button style="font-size:16pt" class="button" onclick="dawnstar()">Dawnstar</button>
+    <button style="font-size:16pt" class="button" onclick="falkreath()">Falkreath</button>
+    <button style="font-size:16pt" class="button" onclick="markarth()">Markarth</button>
+    <button style="font-size:16pt" class="button" onclick="morthal()">Morthal</button>
+    <button style="font-size:16pt" class="button" onclick="riften()">Riften</button>
+    <button style="font-size:16pt" class="button" onclick="solitude()">Solitude</button>
+    <button style="font-size:16pt" class="button" onclick="whiterun()">Whiterun</button>
+    <button style="font-size:16pt" class="button" onclick="windhelm()">Windhelm</button>
+    <button style="font-size:16pt" class="button" onclick="winterhold()">Winterhold</button>
+    </div>
+    <script>
+        function dawnstar(){
+            alert("The capital of the Pale, known for fishing and mining. Recently the Dark Brotherhood has moved here, but its citizens are unaware of such.")
+        }
+        function falkreath(){
+            alert("The capital of Falkreath Hold, on the border of Cyrodiil. The town is known for lumbar and its large cemetary, with many local shops themed after death because of this.")
+        }
+        function markarth(){
+            alert("The capital of the Reach. The entire city is an old Dwemer Ruin, and is known for Understone Keep; An ancient Dwemer keep built into the mountainside, which the Jarl lives in.")
+        }
+        function morthal(){
+            alert("The capital of Hjaalmarch. This city is swampy and cold, and its people are reclusive and mysterious. Many avoid Morthal for its haunting atmosphere.")
+        }
+        function riften(){
+            alert("The capital of the Rift. This city is known for its fishing, and the home of the Thieves Guild. Because of the Guild's presence, Riften is known as the most corrupt of the cities.")
+        }
+        function solitude(){
+            alert("The capital Haafingar and all of Skyrim, the High King and Queen preside here in the Blue Palace. It is the largest city in Skyrim.")
+        }
+        function whiterun(){
+            alert("The capital of Whiterun Hold, in the center of Skyrim. Its convenient location makes Winterhold Skyrim's primary commercial hub, and is known for Jorrvaskr; Home of the Companions.")
+        }
+        function windhelm(){
+            alert("The capital of Eastmarch. This city is known for passage to and from Morrowind, and for being the home of the Stormcloak Rebellion.")
+        }
+         function winterhold(){
+            alert("The capital of Winterhold. The rest of the city is still in disarray after The Collapse, but the College of Winterhold still stands strong and takes in students to this day.")
+        }
+    </script>
+</nav>
+        <div id="pictures"><a href="https://creativecommons.org/licenses/by-sa/2.0/legalcode"><img src="images/skyrim.jpg" alt="map of skyrim" width="100%" height="20%"></a></div>
+            <p>Image courtesy of <a href="https://search.creativecommons.org/photos/85d85c8e-b801-4b5d-ad45-ebbd38c5c7c5">vshadow</a></p>
+        <h2>Skyrim</h2>
+        <p>Skyrim is full of various provinces - While surrounding provinces simply state Skyrim is cold and bleak, southern Skyrim strongly disproves such. Now it's still cold, but not cold enough to constantly be covered in snow. Skyrim 
+            is well known for its frigid temperatures and dangerous beasts, and this reputation is well earned. The harsh climate of this province is what lead to the belief that Skyrim's Nords are a hearty people, coming from the even colder continent of Atmora (Equivalent to our Antartica).
+            But Skyrim is one of the more free provinces, the Guards merely serve to protect from monsters and rarely enforce the law.</p>
+        <br>
+        <p>Skyrim is broken up into nine holds, each with their own ruling city, and Solitude that rules them all. Interact with the buttons above the map for a brief summary of the nine major cities.</p>
+        <br>
+        <h2>Quiz:</h2>
+        <button style="font-size:14pt" class="button" onclick="query()">Which city are you most interested in?</button>
+        <script>
+            function query(){
+            var city;
+            city=prompt ("Which city are you most interested in?");
+            alert ("Thank you for your response. You said " + city + ". I'll add more information on this city in the future, so be sure to check back!")
+            }
+        </script>
+        <p>Which towns are known for fishing?</p>
+        <form method="get">
+            <input type="checkbox" name="dawnstar" id="dawnstar" value="yes">Dawnstar</br>
+            <input type="checkbox" name="falkreath" id="falkreath" value="yes">Falkreath</br>
+            <input type="checkbox" name="markarth" id="markarth" value="yes">Markarth</br>
+            <input type="checkbox" name="morthal" id="morthal" value="yes">Morthal</br>
+            <input type="checkbox" name="riften" id="riften" value="yes">Riften</br>
+            <input type="checkbox" name="solitude" id="solitude" value="yes">Solitude</br>
+            <input type="checkbox" name="whiterun" id="whiterun" value="yes">Whiterun</br>
+            <input type="checkbox" name="windhelm" id="windhelm" value="yes">Windhelm</br>
+            <input type="checkbox" name="winterhold" id="winterhold" value="yes">Winterhold</br>
+            <input type="submit" class="button" value="Submit"> &nbsp; <input type="reset" class="button">
+        </form>
+        <form method="get">
+            <p>Which city is the capital?</p>
+            <input type="radio" name="dawnstar" id="dawnstar" value="yes">Dawnstar</br>
+            <input type="radio" name="falkreath" id="falkreath" value="yes">Falkreath</br>
+            <input type="radio" name="markarth" id="markarth" value="yes">Markarth</br>
+            <input type="radio" name="morthal" id="morthal" value="yes">Morthal</br>
+            <input type="radio" name="riften" id="riften" value="yes">Riften</br>
+            <input type="radio" name="solitude" id="solitude" value="yes">Solitude</br>
+            <input type="radio" name="whiterun" id="whiterun" value="yes">Whiterun</br>
+            <input type="radio" name="windhelm" id="windhelm" value="yes">Windhelm</br>
+            <input type="radio" name="winterhold" id="winterhold" value="yes">Winterhold</br>
+            <input type="submit" class="button" value="Submit"> &nbsp; <input type="reset" class="button">
+        </form>
+        <p>Which city has the largest graveyard?</p>
+        <form method="get">
+            <select class="button" size="1" name="graveyard" id="largestgraveyard">
+                <option>Select</option>
+                <option value="dawnstar">Dawnstar</option>
+                <option value="falkreath">Falkreath</option>
+                <option value="markarth">Markarth</option>
+                <option value="morthal">Morthal</option>
+                <option value="riften">Riften</option>
+                <option value="solitude">Solitude</option>
+                <option value="whiterun">Whiterun</option>
+                <option value="windhelm">Windhelm</option>
+                <option value="winterhold">Winterhold</option>
+            </select>
+        </form>
+    </div>
+<footer>
+    &copy; <a href="mailto:crobbins1@student.egcc.edu">2021 Cassandra Robbins crobbins1@student.egcc.edu</a>
+    <p>I am not affiliated with Bethesda Softworks or Wizards of the Coast, and do not own this information. This is only for fun and I gain no profit.</p>
+</footer>
+    </body>
+</html>

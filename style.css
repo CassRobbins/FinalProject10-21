@@ -1,0 +1,100 @@
+body {background-image: url(../FinalPrep/images/default.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color:#000000;
+    color:#D4D0D0;
+    font-family:Garamond;
+    font-size:14pt;
+}
+header {background-color:#23272a;
+    color:#D4D0D0;
+    text-align: center;
+    font-size:12pt;
+    margin:auto;
+    width:60%;
+    padding:20px;
+}
+h1 {color:#D4D0D0;
+    font-family:'Gill Sans';
+}
+h2 {color:#D4D0D0;
+    font-family:'Gill Sans';
+}
+nav {background-color:#363f4a;
+    color:#D4D0D0;
+    font-size:20pt;
+    text-align:center;
+    padding:1px;
+    margin:auto;
+    width:60%;
+    padding:20px;
+}
+#logo{background-color:#23272a;
+      margin:auto;
+      width:60%;
+      padding-left:20px;
+      padding-right:20px;
+      padding-top:20px;
+}
+#logo img{display:block;
+          margin:auto;
+          margin-top:40px;}
+.column{
+    background-color:#2c2f33;
+    color:#D4D0D0;
+    margin:auto;
+    width:60%;
+    padding:20px;
+}
+.monsters img{
+    float:left;
+    margin-right:20px;
+    border-style:ridge;
+    border-color:#604020;
+    border-width:5px;
+}
+#locations {
+    background-color:#2c2f33;
+    color: #D4D0D0;
+    font-size:16pt;
+    text-align:center;
+}
+#pictures{
+    object-fit:contain;
+    margin-bottom:-15px;
+    border-style:ridge;
+    border-color:#604020;
+    border-width:5px;
+}
+#pictures img{
+    display:block;
+}
+a:link {color:#D4D0D0;
+        text-decoration:none;}
+a:visited {color:#c2bdbd;}
+a:hover {color:#b3ffff;
+    text-decoration:underline;}
+.button{
+    background-color:#23272a;
+    border:1px solid #D4D0D0;
+    color:#D4D0D0;
+    text-align:center;
+    cursor:pointer;
+    padding:3px;
+    font-family:garamond;
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+footer{
+    color:#D4D0D0;
+    background-color:#23272a;
+    font-size:medium;
+    text-align:center;
+    padding:20px;
+    margin:auto;
+    width:60%;
+    padding:20px;
+}
+
+
